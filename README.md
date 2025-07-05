@@ -104,7 +104,9 @@ To use this server with Claude Desktop and GitHub Copilot:
 
 - You must also specify the path to the root directory of the project (for example, /home/<your-name>/<project-folder>/rag-groundx-mcp-server/src) in the command line arguments "args".
 
-- You may also use fastmcp.cli.claude to configure the MCP servers in Claude Desktop. See https://gofastmcp.com/python-sdk/fastmcp-cli-claude#fastmcp-cli-claude for more information.  
+- You may also use fastmcp.cli.claude to configure the MCP servers in Claude Desktop. See https://gofastmcp.com/python-sdk/fastmcp-cli-claude#fastmcp-cli-claude for more information.
+  
+- Anthropic has also introduced "Desktop Extensions" (.dxt files) which simplify the installation and management of local MCP servers, allowing for one-click setup.
 
 
 2. **Restart Claude Desktop and VS Code** (File->Quit) to apply changes
@@ -130,11 +132,11 @@ To use this server with GitHub Copilot:
 5. You may ask Claude to upload documents from your Google Drive to GroundX.
 6. You may ask Claude to answer a query based on your GroundX documents using the Retrieval tool.
 
-## 🚀 Quick Start with GitHub Copilot
+## 🚀 Quick Start with VS Code Copilot
 
 1. Ensure MCP servers are running via Claude Desktop configuration.
-2. Open VS Code and enable Agent mode in GitHub Copilot.
-3. Verify the presence of your MCP tools by clicking on the tools logo below the chat input field of GitHub Copilot.
+2. Open VS Code and enable Agent mode in Copilot.
+3. Verify the presence of your MCP tools by clicking on the tools logo below the chat input field of Copilot.
 4. Interact naturally - the agent will use the appropriate tools as needed.
 5. For uploading local files to groundx: Open this project folder under WSL in VS Code. The agent will then have access to it any documents you may copy to within this folder.
 6. You may ask the agent to search for documents in your Google Drive.
