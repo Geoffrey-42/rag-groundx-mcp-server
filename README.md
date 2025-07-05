@@ -104,7 +104,7 @@ To use this server with Claude Desktop and GitHub Copilot:
 
 - You must also specify the path to the root directory of the project (for example, /home/<your-name>/<project-folder>/rag-groundx-mcp-server/src) in the command line arguments "args".
 
-- You may also use fastmcp.cli.claude to configure the MCP servers in Claude Desktop. See https://gofastmcp.com/python-sdk/fastmcp-cli-claude#fastmcp-cli-claude for more information.
+- You may also use fastmcp.cli.claude to configure the MCP servers in Claude Desktop. See https://gofastmcp.com/python-sdk/fastmcp-cli-claude#fastmcp-cli-claude for more information.  
 
 
 2. **Restart Claude Desktop and VS Code** (File->Quit) to apply changes
@@ -119,7 +119,7 @@ To use this server with GitHub Copilot:
 
 1. Enable Agent mode in VS Code
 2. MCP tools will be automatically detected
-3. Interact naturally - the agent will use the appropriate tools as needed
+3. Interact naturally - the agent will use the appropriate tools as needed  
 
 ## 🚀 Quick Start with Claude Desktop
 
