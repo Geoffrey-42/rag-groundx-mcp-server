@@ -2,13 +2,17 @@
 
 An MCP (Model Context Protocol) server for interacting with the GroundX API from eyelevel.ai, featuring a local proxy to connect to the remote Google Drive MCP Server URL of your choice (for example, Zapier). This integration enables seamless integration of GroundX capabilities into your GitHub Copilot and Claude Desktop workflows to perform advanced parsing and semantic search on your Google Drive or local documents.
 
-## 🚀 Features
+## 🌟 Key Features
 
-- MCP Server for GroundX API interaction, with stdio transport.
-- MCP Proxy for a remote Google Drive MCP Server, allowing an integration with the free version of Claude Desktop with stdio transport.
-- Possibility to either upload your local files to GroundX or your Google Drive files to GroundX.
-- Apply advanced semantic search through GroundX.
-- GitHub Copilot and Claude Desktop compatibility.
+- **MCP Server for GroundX API** with stdio transport
+- **Google Drive Integration** through MCP Proxy
+- **Dual Document Management**:
+  - Upload local files directly to GroundX
+  - Or sync Google Drive documents with GroundX
+- **Advanced Semantic Search** across all your documents
+- **Seamless Integration** with:
+  - GitHub Copilot
+  - Claude Desktop
 
 ## 🚀 Quick Start
 
