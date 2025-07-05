@@ -45,7 +45,8 @@ An MCP (Model Context Protocol) server for interacting with the GroundX API from
    uv pip install -r requirements.txt
    ```
 
-4. (Optional - Can be skipped if you configure the environment within the claude_desktop_config.json file) **Configure your environment within a .env file**:
+4. (Optional) **Configure your environment within a .env file**:
+   (Can be skipped if you configure the environment within the claude_desktop_config.json file)
    - Create a `.env` file in the root directory:
      ```bash
      touch .env
