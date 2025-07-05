@@ -46,7 +46,6 @@ An MCP (Model Context Protocol) server for interacting with the GroundX API from
    ```
 
 4. (Optional) **Configure your environment within a .env file**:
-   (Can be skipped if you configure the environment within the claude_desktop_config.json file)
    - Create a `.env` file in the root directory:
      ```bash
      touch .env
@@ -59,6 +58,7 @@ An MCP (Model Context Protocol) server for interacting with the GroundX API from
      # Optional: Only needed for Google Drive integration
      # GOOGLE_DRIVE_SERVER_URL=your_google_drive_mcp_server_url
      ```
+   - Note: Can be skipped if you configure the environment within the claude_desktop_config.json file (see below).
 
 ## 🔌 Claude Desktop Configuration
 
