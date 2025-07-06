@@ -102,7 +102,7 @@ To use this server with Claude Desktop and GitHub Copilot:
 
 - You can also use the .env file to pass the API key and Google Drive MCP Server URL to the servers. Write GOOGLE_DRIVE_SERVER_URL = <your_google_drive_mcp_server_url> and GROUNDX_API_KEY = <your_groundx_api_key> in the .env file.
 
-- You must also specify the path to the root directory of the project (for example, /home/<your-name>/<project-folder>/rag-groundx-mcp-server/src) in the command line arguments "args".
+- You must also specify the path to the root directory of the project (for example, /home/&lt;your-name&gt;/&lt;project-folder&gt;/rag-groundx-mcp-server/src) in the command line arguments "args".
 
 - You may also use fastmcp.cli.claude to configure the MCP servers in Claude Desktop. See https://gofastmcp.com/python-sdk/fastmcp-cli-claude#fastmcp-cli-claude for more information.
   
